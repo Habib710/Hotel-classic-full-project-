@@ -15,7 +15,7 @@ const Login = () => {
                     <label htmlFor="Password" >Password</label>
                     <br />
                     <input type="Password" placeholder='Your Password' />
-                    <br /><br />
+                    <br />
                     <h6 className='mt-3'>New to Hotel Classic ? <a href="#w">Register Now </a></h6>
                     
                    <br />
@@ -24,7 +24,8 @@ const Login = () => {
 
                     <br />
                     <br />
-                    <br />
+                    <p className='text-center'>Or</p>
+                   
                     <button className='buttonss'>Sing in With Google</button>
 
 

@@ -2,4 +2,16 @@
     padding: 15px;
     border: 2px solid rgb(206, 206, 206);
     margin: 5px;
+    width: 450px;
+}
+
+
+
+
+@media screen and (max-width:575px) {
+    .cart-{
+        margin-right: 5px;
+        width: auto;
+    }
+    
 }

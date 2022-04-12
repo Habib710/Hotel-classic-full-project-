@@ -13,12 +13,16 @@ const Home = () => {
 
     },[])
     return (
+        <div>
+            <h2 className='text-center mt-4 fw-bold'>Our Rooms</h2>
         <div className='room'>
+            
             
             {
                 rooms.map(room=><Cart key="id" data={room}></Cart>)
             }
            
+        </div>
         </div>
     );
 };

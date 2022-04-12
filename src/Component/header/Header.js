@@ -11,7 +11,7 @@ const Header = () => {
         
         <Navbar  className='css' bg="dark" expand="lg" >
   <Container>
-    <Navbar.Brand className='text-white css-brand'>Hotel Habibi</Navbar.Brand>
+    <Navbar.Brand className='text-white css-brand'>Hotel - Classic</Navbar.Brand>
     <Navbar.Toggle   aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="custom ms-auto">

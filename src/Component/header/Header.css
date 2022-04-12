@@ -1,0 +1,25 @@
+.css{
+   
+   background-color: black;
+   min-height: 90px;
+
+}
+.css-brand{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.custom a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.custom a:hover{
+    color: rgb(245, 138, 6);
+    transition: .5s;
+}

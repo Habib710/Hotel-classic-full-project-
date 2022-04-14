@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Login.css'
-import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useAuthState, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 
 const Login = () => {
@@ -9,6 +9,10 @@ const Login = () => {
     const [password, setpassword] = useState('');
    
     const naviget=useNavigate();
+
+
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
+    
    
     const [
         signInWithEmailAndPassword,
@@ -34,6 +38,8 @@ const Login = () => {
         event.preventDefault();
 
         signInWithEmailAndPassword(email, password);
+        
+
     }
     if(user){
         naviget('/')
@@ -47,11 +53,11 @@ const Login = () => {
                 <form onSubmit={handelesubmit} className='form my-3'>
                     <label htmlFor="Email">Email</label>
                     <br />
-                    <input onBlur={hendlemail} type="email"  placeholder='Your Email'/>
+                    <input onBlur={hendlemail} type="email"  placeholder='Your Email' required/>
                     <br />
                     <label htmlFor="Password" >Password</label>
                     <br />
-                    <input onBlur={hendlpassword} type="Password" placeholder='Your Password' />
+                    <input onBlur={hendlpassword} type="Password" placeholder='Your Password' required />
                     <br />
                     {
                         loading? <p>loading............</p>:''
@@ -68,15 +74,15 @@ const Login = () => {
                     
                     
                     <input className='button' type="submit" value='Login'  />
+                    </form>
 
-                    <br />
-                    <br />
+                   
                     <p className='text-center'>Or</p>
                    
-                    <button className='buttonss'>Sing in With Google</button>
+                    <button onClick={()=>signInWithGoogle()} className='singin-btn'>Sing in With Google</button>
 
 
-                </form>
+                
 
             </div>
         </div>

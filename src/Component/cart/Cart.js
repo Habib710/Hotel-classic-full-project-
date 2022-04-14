@@ -1,9 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {name ,company,balance,picture}=props.data;
+    const {name ,company,balance,picture,id}=props.data;
+    const naviget=useNavigate();
+
+    const addtocart = id => {
+
+       naviget(`/detail/${id}`);
+    }
  
     
 
@@ -14,7 +20,7 @@ const Cart = (props) => {
             <h5>Brand:{company}</h5>
             <h6>Rent:{balance}</h6>
             
-              <Link className='text-white csss ' to='/shop'><button  className=' csss-btn'>add to cart </button></Link> 
+             <button onClick={()=>addtocart(id)}  className=' csss-btn'>add to cart </button> 
             
             
         </div>

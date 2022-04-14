@@ -40,10 +40,11 @@
     background-color: rgb(129, 243, 52);
     transition: .5S;
 }
-.buttonss{
+.singin-btn{
     padding: 5px 80px;
     border: 1px solid rgb(119, 119, 119);
     font-weight: 500;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+    margin-left: 20px;
 }

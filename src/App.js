@@ -8,6 +8,7 @@ import Login from './Component/Login/Login'
 import Header from './Component/header/Header';
 import Registation from './Component/register/Registation';
 import RequerAuth from './Component/RequerAuth/RequerAuth';
+import Detail from './Component/details/Detail';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
        
        }></Route>
        <Route path='/about' element={<About></About>}></Route>
+       <Route path='/detail/:detailid' element={<Detail></Detail>}></Route>
        <Route path='/login' element={<Login></Login>}></Route>
        <Route path='/register' element={<Registation></Registation>}></Route>
 

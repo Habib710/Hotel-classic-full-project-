@@ -105,11 +105,7 @@ const Registation = () =>{
                     
                     <input className='button' type="submit" value='Register' />
 
-                    <br />
-                    <br />
-                    <p className='text-center'>Or</p>
-                   
-                    <button  className='buttonss'>Sing up With Google</button>
+                    
 
 
                 </form>

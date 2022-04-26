@@ -5,7 +5,7 @@ const Detail = () => {
 
   const {detailid}=useParams();
 
-//  ...fdghdfgdfgdfg..
+
 
     const [newroom,setnewroom]=useState([]);
     useEffect(()=>{

@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+     
       "balance": "$3,838.29",
       "picture": "img/room-1.jpg",
       "name": "Christine Hayes",
@@ -9,7 +9,7 @@
       "registered": "2020-10-19T10:03:47 -06:00"
     },
     {
-      "id": "2",
+      
       "balance": "$3,583.13",
       "picture": "img/room-2.jpg",
       "name": "Underwood Norman",
@@ -18,7 +18,7 @@
       "registered": "2020-08-24T05:26:49 -06:00"
     },
     {
-      "id": "3",
+      
       "balance": "$3,515.01",
       "picture": "img/room-3.jpg",
       "name": "Acevedo Holland",
@@ -27,7 +27,7 @@
       "registered": "2021-01-13T10:30:22 -06:00"
     },
     {
-      "id": "4",
+      
       "balance": "$1,127.64",
       "picture": "img/room-4.jpg",
       "name": "Velez Stuart",
@@ -36,7 +36,7 @@
       "registered": "2019-03-15T07:22:55 -06:00"
     },
     {
-      "id": "5",
+      
       "balance": "$3,603.19",
       "picture": "img/room-5.jpg",
       "name": "Susanna Parks",
@@ -45,7 +45,7 @@
       "registered": "2015-04-15T12:08:47 -06:00"
     },
     {
-      "id": "6",
+      
       "balance": "$3,302.44",
       "picture": "img/room-6.jpg",
       "name": "Dale Dean",
@@ -54,7 +54,7 @@
       "registered": "2014-05-11T04:03:01 -06:00"
     },
     {
-      "id": "7",
+      
       "balance": "$1,504.96",
       "picture": "img/room-7.jpg",
       "name": "Lilian Mooney",
@@ -63,7 +63,7 @@
       "registered": "2015-12-20T01:51:52 -06:00"
     },
     {
-      "id": "8",
+      
       "balance": "$3,660.38",
       "picture": "img/room-8.jpg",
       "name": "Irwin Kane",
@@ -72,7 +72,7 @@
       "registered": "2021-04-22T06:54:45 -06:00"
     },
     {
-      "id": "9",
+     
       "balance": "$2,171.13",
       "picture": "img/room-9.jpg",
       "name": "Hill Kramer",
@@ -81,7 +81,7 @@
       "registered": "2021-08-17T02:33:15 -06:00"
     },
     {
-      "id": "10",
+      
       "balance": "$2,477.21",
       "picture": "img/room-10.jpg",
       "name": "Abby Hale",
@@ -90,7 +90,7 @@
       "registered": "2014-07-18T07:56:57 -06:00"
     },
     {
-      "id": "11",
+      
       "balance": "$2,340.36",
       "picture": "img/room-11.jpg",
       "name": "Steele Coleman",
@@ -99,7 +99,7 @@
       "registered": "2015-02-11T07:33:13 -06:00"
     },
     {
-      "id": "12",
+      
       "balance": "$1,548.15",
       "picture": "img/room-1.jpg",
       "name": "Bobbie Oneal",

@@ -10,7 +10,7 @@ const Header = () => {
   const [user]=useAuthState(auth);
   const hendlesingout=()=>{
     signOut(auth)
-
+  
 
   }
     return (
@@ -26,6 +26,7 @@ const Header = () => {
       <Nav className="custom ms-auto">
 
         <Link to="/">Home</Link>
+        <Link to='/detail'>Detail</Link>
 
         <Link to="/shop">Shop</Link>
         

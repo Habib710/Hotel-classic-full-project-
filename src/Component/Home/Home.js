@@ -5,12 +5,10 @@ import './Home.css'
 const Home = () => {
     const [rooms, setrooms]=useState([]);
     useEffect(()=>{
-        fetch("data.json")
+        fetch("http://localhost:3300/rooms")
         .then(res=>res.json())
         .then(data=>setrooms(data))
-
-
-
+    
     },[])
     return (
         <div>
@@ -19,7 +17,7 @@ const Home = () => {
             
             
             {
-                rooms.map(room=><Cart key="id" data={room}></Cart>)
+                rooms.map(room=><Cart key={room._id} data={room}></Cart>)
             }
            
         </div>

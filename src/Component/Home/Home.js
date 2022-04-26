@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
     const [rooms, setrooms]=useState([]);
     useEffect(()=>{
-        fetch("http://localhost:3300/rooms")
+        fetch("https://sheltered-wave-47448.herokuapp.com/rooms")
         .then(res=>res.json())
         .then(data=>setrooms(data))
     

@@ -5,11 +5,11 @@ const Detail = () => {
 
   const {detailid}=useParams();
 
- 
+//  ...fdghdfgdfgdfg..
 
     const [newroom,setnewroom]=useState([]);
     useEffect(()=>{
-        fetch(`http://localhost:3300/rooms/${detailid}`)
+        fetch(`https://sheltered-wave-47448.herokuapp.com/rooms/${detailid}`)
         .then(res=>res.json())
         .then(data=>setnewroom(data))
 

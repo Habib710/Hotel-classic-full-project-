@@ -11,9 +11,9 @@ const Home = () => {
     
     },[])
     return (
-        <div>
-            <h2 className='text-center mt-4 fw-bold'>Our Rooms</h2>
-        <div className='room'>
+        <div className='container'>
+            <h2 className='text-center my-5 fw-bold'>Our Rooms</h2>
+        <div className='room my-4'>
             
             
             {
